@@ -6,6 +6,7 @@ public class EquipRespawnManager : MonoBehaviour
     public static EquipRespawnManager main;
 
     [Header("References")]
+    [SerializeField] private Transform parent;
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private GameObject[] equipmentPrefabs;
 
@@ -70,12 +71,14 @@ public class EquipRespawnManager : MonoBehaviour
 
         GameObject equipment = equipmentPrefabs[randomIndex];
 
-        EquipmentController eC = equipment.GetComponent<EquipmentController>();
+        GameObject ItemSpawn = Instantiate(equipment, position.position, Quaternion.identity);
+
+        EquipmentController eC = ItemSpawn.GetComponent<EquipmentController>();
         if(eC != null)
         {
             eC.SetDefaultPosition(position);
         }
 
-        Instantiate(equipment, position.position, Quaternion.identity);
+        ItemSpawn.transform.SetParent(parent);
     }
 }

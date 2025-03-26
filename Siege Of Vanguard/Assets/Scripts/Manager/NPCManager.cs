@@ -6,6 +6,7 @@ public class NPCManager : MonoBehaviour
     public static NPCManager main;
 
     [Header("References")]
+    [SerializeField] private  Transform parent;
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private GameObject[] npcPrefabs;
 
@@ -75,9 +76,12 @@ public class NPCManager : MonoBehaviour
     private void CreateNPC(Vector3 position)
     {
         int randomIndex = Random.Range(0, npcPrefabs.Length);
-
+        
         GameObject npc = npcPrefabs[randomIndex];
 
-        Instantiate(npc, position, Quaternion.identity);
+        GameObject spawnNPC = Instantiate(npc, position, Quaternion.identity);
+
+        spawnNPC.transform.parent = parent;
+
     }
 }
