@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Variant Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3516915897420961253, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 0b1dbdf09c91ee54abd25cec8e0cc579, type: 2}
     - target: {fileID: 5385339801799913277, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
       propertyPath: m_Color.b
       value: 0.71375465
@@ -63,6 +67,18 @@ PrefabInstance:
     - target: {fileID: 5385339801799913277, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138727320603182833, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 89a79317a445e4ed8a8e70115f8a1cc0, type: 3}
+    - target: {fileID: 7024761995920055632, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
+      propertyPath: m_Radius
+      value: 0.3656785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024761995920055632, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.25521094
       objectReference: {fileID: 0}
     - target: {fileID: 8033454127325441067, guid: 788042c0fe626464dbfec812029a4cbf, type: 3}
       propertyPath: type

@@ -72,11 +72,11 @@ public class EquipRespawnManager : MonoBehaviour
         GameObject equipment = equipmentPrefabs[randomIndex];
 
         GameObject ItemSpawn = Instantiate(equipment, position.position, Quaternion.identity);
-
-        EquipmentController eC = ItemSpawn.GetComponent<EquipmentController>();
-        if(eC != null)
+        
+        Dragable dable = ItemSpawn.GetComponent<Dragable>();
+        if(dable != null)
         {
-            eC.SetDefaultPosition(position);
+            dable.SetDefaultPosition(position);
         }
 
         ItemSpawn.transform.SetParent(parent);

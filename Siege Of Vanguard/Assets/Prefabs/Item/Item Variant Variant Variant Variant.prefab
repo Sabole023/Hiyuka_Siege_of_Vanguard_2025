@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 449345907255707336, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
+      propertyPath: m_Radius
+      value: 0.495341
+      objectReference: {fileID: 0}
+    - target: {fileID: 449345907255707336, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.32418036
+      objectReference: {fileID: 0}
     - target: {fileID: 3313523896408634533, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -20,10 +28,18 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3634881608658705769, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9ceba41c6fb6d463ab9ecab86706972e, type: 3}
     - target: {fileID: 5455817203983103543, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
       propertyPath: m_Name
       value: Item Variant Variant Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6308991165446835837, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 2eb20da2b0fa67d48881f3a254e1cd14, type: 2}
     - target: {fileID: 8394741786300880739, guid: 3e625d96bf8644a4c88ab612329adbef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
