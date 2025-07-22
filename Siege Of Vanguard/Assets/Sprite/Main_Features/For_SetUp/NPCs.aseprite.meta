@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d3adb91e5e5cd9448ba081a38091a922
+guid: 19c6d1bc82ec13444bcc9560f7464855
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -135,7 +135,7 @@ ScriptedImporter:
       y: 4
       width: 590
       height: 166
-    spriteID: 1ebe8384d0d91264596dc1776781bffa
+    spriteID: 3f3e44af2c0440b45ab208d2482aea7b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       value1: 0
       value2: 0
       value3: 0
-    guid: 1932358598
+    guid: 0
     name: NPCs
     layerFlags: 0
     layerType: 0
@@ -166,7 +166,7 @@ ScriptedImporter:
         y: 219
         width: 590
         height: 166
-      spriteId: 1ebe8384d0d91264596dc1776781bffa
+      spriteId: 3f3e44af2c0440b45ab208d2482aea7b
     linkedCells: []
     parentIndex: -1
   platformSettings:
